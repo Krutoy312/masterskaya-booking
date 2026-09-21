@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Мастерская — онлайн-запись. Интерактивный демонстрационный проект."
+    />
+    <meta name="theme-color" content="#202a24" />
+    <title>Мастерская — онлайн-запись</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">К содержимому</a>
+    <header class="booking-header">
+      <div class="wrap row between">
+        <a class="booking-logo" href="#services"
+          >м<span>✳</span> <b>мастерская</b></a
+        >
+        <nav class="row">
+          <a href="#services">Записаться</a
+          ><a href="#appointments">Мои записи <span id="book-count">0</span></a>
+        </nav>
+        <span class="tag desktop-only">Демо студии</span>
+      </div>
+    </header>
+    <div class="wrap booking-layout">
+      <aside class="studio">
+        <div class="studio-photo">
+          <img
+            src="assets/interior.jpg"
+            alt="Светлый интерьер студии"
+            fetchpriority="high"
+          /><span>ВРЕМЯ ДЛЯ СЕБЯ</span>
+        </div>
+        <div class="studio-copy">
+          <p class="eyebrow">Студия красоты</p>
+          <h2>Мастерская</h2>
+          <p>Забота, которая начинается<br />с удобной записи.</p>
+          <div class="studio-meta">
+            <span>Москва, ул. Садовая, 12</span
+            ><span>Каждый день · 10:00–20:00</span
+            ><span>Адрес и услуги — демонстрационные</span>
+          </div>
+        </div>
+        <div class="demo-note">
+          <b>Попробуйте онлайн-запись</b>
+          <p>
+            Записи сохраняются только в этом браузере. SMS, оплаты и реального
+            бронирования нет.
+          </p>
+        </div>
+      </aside>
+      <main id="main" tabindex="-1"><div id="booking-app"></div></main>
+    </div>
+    <footer class="wrap notice">
+      Мастерская · Демонстрационный проект, 2026
+    </footer>
+    <script src="app.js" defer></script>
+  </body>
+</html>
