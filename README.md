@@ -2,7 +2,7 @@
 
 Веб-приложение онлайн-записи. Время для себя — в несколько простых шагов. От выбора услуги до подтверждения записи.
 
-[Открыть демо](https://Krutoy312.github.io/masterskaya-booking/)
+[Открыть демо](https://lykovroman.github.io/masterskaya-booking/)
 
 ## Задача
 
@@ -27,7 +27,7 @@
 Node.js 18 или новее. Зависимости не нужны.
 
 ```sh
-git clone https://github.com/Krutoy312/masterskaya-booking.git
+git clone https://github.com/LykovRoman/masterskaya-booking.git
 cd masterskaya-booking
 npm start
 ```
