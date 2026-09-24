@@ -152,6 +152,12 @@ h3 {
 .skip:focus {
   top: 8px;
 }
+.skip:not(:focus) {
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 .icon {
   width: 22px;
   height: 22px;
